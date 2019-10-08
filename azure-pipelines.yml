@@ -4,6 +4,6 @@ pool:
 stages:
 - stage: FirstStage
   jobs:
-  - job: A
+  - job: AJob
     steps:
     - bash: echo "Hello world"
