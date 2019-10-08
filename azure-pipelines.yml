@@ -7,4 +7,3 @@ stages:
   - job: A job
     steps:
     - bash: echo "Hello world"
-    - bash: echo "1 stage and A job"
