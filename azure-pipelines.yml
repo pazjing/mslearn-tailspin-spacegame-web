@@ -2,9 +2,9 @@ pool:
   vmImage: Ubuntu-16.04
 
 stages:
-- stage: First and only one stage
+- stage: FirstStage
   jobs:
-  - job: A job
+  - job: A
     steps:
     - bash: echo "Hello world"
     - bash: echo "1 stage and A job"
