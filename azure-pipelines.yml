@@ -3,5 +3,8 @@ pool:
 
 stages:
 - stage: First and only one stage
-  steps:
-  - bash: echo "Hello world"
+  jobs:
+  - job: A job
+    steps:
+    - bash: echo "Hello world"
+    - bash: echo "1 stage and A job"
