@@ -6,11 +6,7 @@ pool:
 stages:
 - stage: FirstStage
   jobs:
-<<<<<<< Updated upstream
-  - job: A
-=======
   - job: FirstJob
->>>>>>> Stashed changes
     steps:
     - task: DotNetCoreInstaller@0
       displayName: 'Use .NET Core SDK 2.1.505'
